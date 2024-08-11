@@ -2,7 +2,8 @@ l = {
     Notice: {
         strong: {
             KR: '<b style="color:#ffea00">모피모피<br>놀라운 커스터마이징을 경험하세요!</b><br><br>모바일 환경에서는 <b>크롬 또는 사파리</b> 앱을 권장합니다.<br>PC 유저는 <b>오버레이 프로세스 관리자 ❯ 드래그 영역 사용 체크</b> 필수입니다.<br><br><font style="color:cyan">FFXIV_ACT_Plugin.dll 2.0.2.3 버전 이상을 사용하는 유저는<br>ACT → Plugins → FFXIV Settings Tab → <b>Disable Combine Pets with Owner</b> 옵션을 체크합니다.</font><br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a> ❘ <a href="#" id="FR" onclick="initOverlay(this.id)">French</a><br>',
-            EN: ''},
+            EN: ''
+        },
         tip: {
             KR: '[OFFICIAL] MopiMopi ver.20240609 / 해루@모그리',
             EN: ''
