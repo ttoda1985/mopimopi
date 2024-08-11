@@ -2,15 +2,14 @@ l = {
     Notice: {
         strong: {
             KR: '<b style="color:#ffea00">모피모피<br>놀라운 커스터마이징을 경험하세요!</b><br><br>모바일 환경에서는 <b>크롬 또는 사파리</b> 앱을 권장합니다.<br>PC 유저는 <b>오버레이 프로세스 관리자 ❯ 드래그 영역 사용 체크</b> 필수입니다.<br><br><font style="color:cyan">FFXIV_ACT_Plugin.dll 2.0.2.3 버전 이상을 사용하는 유저는<br>ACT → Plugins → FFXIV Settings Tab → <b>Disable Combine Pets with Owner</b> 옵션을 체크합니다.</font><br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a> ❘ <a href="#" id="FR" onclick="initOverlay(this.id)">French</a><br>',
-            EN: '<b style="color:#ffea00">MopiMopi<br>Experience the Incredible Customizing!</b><br><br><b>Chrome or Safari</b> apps are recommended for mobile environment.<br>PC Users : <b>OverlayProc ❯ MUST Check "AppRegion"</b> to limit the draggable area.<br><br><font style="color:cyan">If you are using FFXIV_ACT_Plugin version 2.0.2.3 or later,<br>ACT → Plugins → FFXIV Settings Tab → <b>Check Disable Combine Pets with Owner</b>.</font><br><br>Please select <b>your language</b> : <a href="#" id="KR" onclick="initOverlay(this.id)">한국어</a> ❘ <a href="#" id="EN" onclick="initOverlay(this.id)">English</a> ❘ <a href="#" id="JP" onclick="initOverlay(this.id)">日本語</a> ❘ <a href="#" id="CN" onclick="initOverlay(this.id)">中國語</a> ❘ <a href="#" id="DE" onclick="initOverlay(this.id)">Deutsch</a> ❘ <a href="#" id="FR" onclick="initOverlay(this.id)">French</a><br>'
-        },
+            EN: ''},
         tip: {
             KR: '[OFFICIAL] MopiMopi ver.20240609 / 해루@모그리',
-            EN: '[OFFICIAL] MopiMopi ver.20240609 / HAERU@Moogle (KR)'
+            EN: ''
         },
         update: {
             KR: '<div name="row"><div class="c">05/22</div><div class="m">ACTWebSocket으로 더이상 모피모피를 이용하지 마십시오. OverlayPlugin으로 연결하시기 바랍니다.</div></div><div name="row"><div class="c">05/14</div><div class="m">화면이 변경되지 않는 유저들은 캐시 폴더를 삭제하고 다시 실행해 봅니다.</div></div><div name="row"><div class="c">05/14</div><div class="m">OverlayPlugin : ACT 종료 → 시작 → 실행 → %appdata% → Advanced Combat Tracker → OverlayPluginCache → Cache 폴더 삭제 후 ACT 재실행</div></div>',
-            EN: '<div name="row"><div class="c">May 22</div><div class="m">Do NOT use MopiMopi with ACTWebSocket anymore. Please connect to OverlayPlugin.</div></div><div name="row"><div class="c">May 14</div><div class="m">Users whose screen doesn\'t change, delete the cache folder and try again.</div></div><div name="row"><div class="c">May 14</div><div class="m">OverlayPlugin :  Exit ACT → %appdata% → Advanced Combat Tracker → OverlayPluginCache → Cache directory delete → Restart ACT</div></div>'
+            EN: ''
         }
     },
     msg: {
