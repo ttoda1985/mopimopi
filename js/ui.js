@@ -63,21 +63,18 @@ function initOverlay(val) {
         callToast('submit', 0, 3000)
     }
     if (lastCombat == null) {
-        /*
         $('[name=time]').text('00:00')
         $('[name=target]').text(l.NAV.main.tt.target[lang])
         $('[name=rps]').text(l.NAV.main.tt.rps[lang])
         $('.btn_wrap').show()
+        /*
         for (var i in l.Notice) {
             if (lang == "KR")
                 $('#' + i).html(l.Notice[i][lang])
             else
                 $('#' + i).html(l.Notice[i].EN)
-        */
-        $('[name=notice]').fadeOut(0) // 追加
-        $('.btn_wrap').show() // 追加
-        update(lastDPS, lastHPS) // 追加
         }
+        */
     } else {
         $('[name=notice]').fadeOut(0)
         $('.btn_wrap').show()
