@@ -68,14 +68,12 @@ function initOverlay(val) {
         $('[name=rps]').text(l.NAV.main.tt.rps[lang])
         $('[name=notice]').fadeOut(0)
         $('.btn_wrap').show()
-        /*
         for (var i in l.Notice) {
             if (lang == "KR")
                 $('#' + i).html(l.Notice[i][lang])
             else
                 $('#' + i).html(l.Notice[i].EN)
         }
-        */
     } else {
         $('[name=notice]').fadeOut(0)
         $('.btn_wrap').show()
